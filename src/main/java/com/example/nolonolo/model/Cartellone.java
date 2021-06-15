@@ -36,10 +36,10 @@ public class Cartellone {
     @Column(name = "indirizzo")
     private String indirizzo;
 
-    @Column(name = "latitudine", columnDefinition="Decimal(10,2)")
+    @Column(name = "latitudine", columnDefinition="Decimal(11,8)")
     private BigDecimal latitudine;
 
-    @Column(name = "longitudine", columnDefinition="Decimal(10,2)")
+    @Column(name = "longitudine", columnDefinition="Decimal(11,8)")
     private BigDecimal longitudine;
 
 }
